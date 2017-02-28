@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: iot-gada
+  host: iot-gada
+  disk_quota: 1024M
+  services:
+  - iot-gada-cloudantNoSQLDB
+  - iot-gada-iotf-service
